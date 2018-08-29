@@ -14,6 +14,8 @@
 		8714AD7721354504002036B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8714AD7521354504002036B5 /* LaunchScreen.storyboard */; };
 		8714AD8221354504002036B5 /* APNDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8714AD8121354504002036B5 /* APNDemoTests.swift */; };
 		8714AD8D21354504002036B5 /* APNDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8714AD8C21354504002036B5 /* APNDemoUITests.swift */; };
+		873BF44C2136DD9200FEAE16 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 873BF44B2136DD9200FEAE16 /* GoogleService-Info.plist */; };
+		8C0222B132F50D9EA3E94087 /* Pods_APNDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 585003439CBE3894C7359AA9 /* Pods_APNDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		069DE6AE46323E2630BC3DAD /* Pods-APNDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APNDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APNDemo/Pods-APNDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		585003439CBE3894C7359AA9 /* Pods_APNDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APNDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8714AD6921354501002036B5 /* APNDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APNDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8714AD6C21354501002036B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8714AD6E21354501002036B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +52,9 @@
 		8714AD8C21354504002036B5 /* APNDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APNDemoUITests.swift; sourceTree = "<group>"; };
 		8714AD8E21354504002036B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8714AD9A213571EA002036B5 /* APNDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = APNDemo.entitlements; sourceTree = "<group>"; };
+		873BF44B2136DD9200FEAE16 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		873BF44D2136DD9A00FEAE16 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C068019946AD333413B9EDE8 /* Pods-APNDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APNDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-APNDemo/Pods-APNDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C0222B132F50D9EA3E94087 /* Pods_APNDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +90,8 @@
 				8714AD8021354504002036B5 /* APNDemoTests */,
 				8714AD8B21354504002036B5 /* APNDemoUITests */,
 				8714AD6A21354501002036B5 /* Products */,
+				A0C8315ABBD5C628308AC1F4 /* Pods */,
+				AF9B6C551D349E70DB04A2A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +108,7 @@
 		8714AD6B21354501002036B5 /* APNDemo */ = {
 			isa = PBXGroup;
 			children = (
+				873BF44B2136DD9200FEAE16 /* GoogleService-Info.plist */,
 				8714AD9A213571EA002036B5 /* APNDemo.entitlements */,
 				8714AD6C21354501002036B5 /* AppDelegate.swift */,
 				8714AD6E21354501002036B5 /* ViewController.swift */,
@@ -105,6 +116,7 @@
 				8714AD7321354504002036B5 /* Assets.xcassets */,
 				8714AD7521354504002036B5 /* LaunchScreen.storyboard */,
 				8714AD7821354504002036B5 /* Info.plist */,
+				873BF44D2136DD9A00FEAE16 /* GoogleService-Info.plist */,
 			);
 			path = APNDemo;
 			sourceTree = "<group>";
@@ -127,6 +139,23 @@
 			path = APNDemoUITests;
 			sourceTree = "<group>";
 		};
+		A0C8315ABBD5C628308AC1F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				069DE6AE46323E2630BC3DAD /* Pods-APNDemo.debug.xcconfig */,
+				C068019946AD333413B9EDE8 /* Pods-APNDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AF9B6C551D349E70DB04A2A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				585003439CBE3894C7359AA9 /* Pods_APNDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8714AD9121354504002036B5 /* Build configuration list for PBXNativeTarget "APNDemo" */;
 			buildPhases = (
+				469AE462DA4203D431B2C334 /* [CP] Check Pods Manifest.lock */,
 				8714AD6521354501002036B5 /* Sources */,
 				8714AD6621354501002036B5 /* Frameworks */,
 				8714AD6721354501002036B5 /* Resources */,
+				AC07F5F9C7F47BAFAEFFE418 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -237,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8714AD7721354504002036B5 /* LaunchScreen.storyboard in Resources */,
+				873BF44C2136DD9200FEAE16 /* GoogleService-Info.plist in Resources */,
 				8714AD7421354504002036B5 /* Assets.xcassets in Resources */,
 				8714AD7221354501002036B5 /* Main.storyboard in Resources */,
 			);
@@ -257,6 +289,49 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		469AE462DA4203D431B2C334 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-APNDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC07F5F9C7F47BAFAEFFE418 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-APNDemo/Pods-APNDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-APNDemo/Pods-APNDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8714AD6521354501002036B5 /* Sources */ = {
@@ -435,6 +510,7 @@
 		};
 		8714AD9221354504002036B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 069DE6AE46323E2630BC3DAD /* Pods-APNDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = APNDemo/APNDemo.entitlements;
@@ -455,6 +531,7 @@
 		};
 		8714AD9321354504002036B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C068019946AD333413B9EDE8 /* Pods-APNDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = APNDemo/APNDemo.entitlements;
